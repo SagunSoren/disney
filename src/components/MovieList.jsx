@@ -33,7 +33,7 @@ function MovieList({genreId,index_}) {
             mt-[150px]`}/>
    
     <div ref={elementRef} className='flex overflow-x-auto gap-8
-     scrollbar-hide scroll-smooth pt-4 px-3 pb-4'>
+      scroll-smooth pt-4 px-3 pb-4'>
         {movieList.map((item,index)=>(
 
           <MovieCard movie={item} />
